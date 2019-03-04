@@ -1,0 +1,30 @@
+{
+  "name": "react-app",
+  "version": "1.0.0",
+  "description": "A Roc project",
+  "author": "",
+  "license": "MIT",
+  "scripts": {
+    "build": "roc build",
+    "dev": "roc dev",
+    "lint": "eslint .",
+    "start": "roc start"
+  },
+  "dependencies": {
+    "jQuery": "^1.7.4",
+    "jquery": "^3.3.1",
+    "react-matrix-effect": "^1.1.0",
+    "roc-package-web-app-react": "^1.0.0-beta.16"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.1.0",
+    "eslint": "^3.6.0",
+    "eslint-config-airbnb": "^12.0.0",
+    "eslint-config-roc": "^0.1.0",
+    "eslint-plugin-import": "^1.16.0",
+    "eslint-plugin-jsx-a11y": "^2.2.2",
+    "eslint-plugin-react": "^6.3.0",
+    "roc-package-web-app-react-dev": "^1.0.0-beta.16",
+    "roc-plugin-style-sass": "1.0.0-beta.5"
+  }
+}
